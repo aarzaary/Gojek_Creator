@@ -5,7 +5,6 @@ import string
 import requests
 from time import sleep
 
-# pyinstaller --onefile --key Aswasw -i gojek.ico check_voc.py
 ver = "v3.4"
 
 art = """
