@@ -6,7 +6,6 @@ import tempfile
 from time import sleep
 import requests 
 
-# pyinstaller --onefile --key Aswasw -i inject.ico --add-data "adb;adb" inject.py
 ver = "v2.3"
 
 art = """
@@ -78,8 +77,8 @@ try:
     print("# Created by : Ari Ardianto #")
     print("#############################")
     print()
-    os.system(f'{sys._MEIPASS}\\adb\\adb.exe connect 127.0.0.1:21503 > nul')
-    os.system(f'{sys._MEIPASS}\\adb\\adb.exe devices')
+    os.system(f'adb.exe connect 127.0.0.1:21503 > nul')
+    os.system(f'adb.exe devices')
     input("Tekan Enter untuk Inject...")
     print()
     push = os.system(f'{sys._MEIPASS}\\adb\\adb.exe push AuthPreferences.xml /data/data/com.gojek.app/shared_prefs/AuthPreferences.xml > nul')
