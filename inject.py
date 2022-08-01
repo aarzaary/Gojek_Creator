@@ -88,7 +88,7 @@ try:
         print("Inject Berhasi...")
     else:
         print("Inject Gagal...")
-    os.system(f'{sys._MEIPASS}\\adb\\adb.exe kill-server')
+    os.system(f'adb.exe kill-server')
     sleep(3)
 except:
     pass
