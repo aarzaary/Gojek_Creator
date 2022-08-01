@@ -12,8 +12,6 @@ from urllib.parse import urlparse
 import keyboard
 from sys import exit
 
-# pyinstaller --onefile --key Aswasw -i gojek.ico gojek.py
-
 ver = "v3.6"
 art = """
      ██████╗  ██████╗      ██╗███████╗██╗  ██╗                
